@@ -1695,7 +1695,7 @@ namespace GMap.NET.Avalonia
                 if (MouseWheelZoomType != MouseWheelZoomType.MousePositionWithoutCenter)
                 {
                     var ps = this.PointToScreen(new Point(Bounds.Width / 2, Bounds.Height / 2));
-                    Stuff.SetCursorPos(ps.X, ps.Y);
+                    // Stuff.SetCursorPos(ps.X, ps.Y);
                 }
 
                 _core.MouseWheelZooming = true;
